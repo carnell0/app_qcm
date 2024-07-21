@@ -1,0 +1,127 @@
+@import url('https://fonts.googleappis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f4f5f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+
+}
+.menu{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px 10px;
+    box-shadow: 0 0 20px black;
+}
+.menu a{
+    text-decoration: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+    padding: 0 20px;
+    transition: 0.5s;
+
+}
+.menu a:hover{
+    color: #f45938;
+}
+.section{
+    margin-top: 150px;
+}
+section{
+    margin-top: 150px;
+    background-color: #fff;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+}
+.style_btn{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #f45938;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+.error{
+    color: red;
+}
+.pseudo{
+    display: flex;
+    flex-direction: column;
+}
+.pseudo form label{
+    margin-top: 10px;
+
+}
+.pseudo form input{
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    margin: 20px 0;
+    width: 350px;
+ 
+    padding: 10px 0;
+}
+
+.choice {
+    margin: 10px 0;
+
+}
+.choice input[type="radio"]{
+    margin-right: 8px;
+}
+.change_color{
+    color: #f45938;
+    text-transform: uppercase;
+}
+
+.qcm{
+    width: 50%;
+}
+.question{
+    margin: 10px 0;
+}
+.qcm form .style_btn{
+    padding: 10px 30px;
+    margin-left: -22px;
+}
+.resultats h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.question_error{
+    font-weight: bold;
+    font-style: italic;
+}
+.reponse_vrai{
+    font-style: italic;
+    color: green;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.note{
+    font-weight: 500;
+    margin-top: 20px;
+}
+.color{
+    color: #999;
+
+}
